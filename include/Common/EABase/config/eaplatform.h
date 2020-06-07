@@ -610,6 +610,67 @@
 		#define EA_PLATFORM_WINRT 1 
 	#endif
 
+#elif defined(__SH2__)
+	#define EA_PLATFORM_NAME "Sega Saturn"
+	#define EA_PLATFORM_DESCRIPTION "Saturn on SH-2"
+	#define EA_PLATFORM_CONSOLE 1
+	#define EA_PLATFORM_SEGA 1
+	#define EA_PLATFORM_POSIX 1
+	#define EA_PROCESSOR_SUPERH 1
+	#define EA_COMPILER_NO_STRUCTURED_BINDING
+	#if defined(__GNUC__) || defined(__clang__)
+		#define EA_ASM_STYLE_ATT 1
+	#endif
+
+#elif defined(_MIPS_ARCH_R3000)
+	#define EA_PLATFORM_NAME "PlayStation"
+	#define EA_SYSTEM_LITTLE_ENDIAN 1
+	#define EA_PLATFORM_DESCRIPTION "PlayStation on MIPS"
+	#define EA_PLATFORM_CONSOLE 1
+	#define EA_PLATFORM_SONY 1
+	#define EA_PLATFORM_POSIX 1
+	#define EA_PROCESSOR_MIPS 1
+	#define EA_COMPILER_NO_STRUCTURED_BINDING
+	#if defined(__GNUC__) || defined(__clang__)
+		#define EA_ASM_STYLE_ATT 1
+	#endif
+
+#elif defined(_MIPS_ARCH_VR4300)
+	#define EA_PLATFORM_NAME "Nintendo 64"
+	#define EA_PLATFORM_DESCRIPTION "N64 on MIPS"
+	#define EA_PLATFORM_CONSOLE 1
+	#define EA_PLATFORM_NINTENDO 1
+	#define EA_PLATFORM_POSIX 1
+	#define EA_PROCESSOR_MIPS 1
+	#define EA_COMPILER_NO_STRUCTURED_BINDING
+	#if defined(__GNUC__) || defined(__clang__)
+		#define EA_ASM_STYLE_ATT 1
+	#endif
+
+#elif defined(__SH4__)
+	#define EA_PLATFORM_NAME "Dreamcast"
+	#define EA_PLATFORM_DESCRIPTION "Dreamcast on SH-4"
+	#define EA_PLATFORM_CONSOLE 1
+	#define EA_PLATFORM_SEGA 1
+	#define EA_PLATFORM_POSIX 1
+	#define EA_PROCESSOR_SUPERH 1
+	#if defined(__GNUC__) || defined(__clang__)
+		#define EA_ASM_STYLE_ATT 1
+	#endif
+
+#elif defined(_MIPS_ARCH_R5900)
+	#define EA_PLATFORM_NAME "PlayStation 2"
+	#define EA_SYSTEM_LITTLE_ENDIAN 1
+	#define EA_PLATFORM_DESCRIPTION "PS2 on MIPS"
+	#define EA_PLATFORM_CONSOLE 1
+	#define EA_PLATFORM_SONY 1
+	#define EA_PLATFORM_POSIX 1
+	#define EA_PLATFORM_PLAYSTATION2 1
+	#define EA_PROCESSOR_MIPS 1
+	#if defined(__GNUC__) || defined(__clang__)
+		#define EA_ASM_STYLE_ATT 1
+	#endif
+
 // Sun (Solaris)
 // __SUNPRO_CC is defined by the Sun compiler.
 // __sun is defined by the GCC compiler.
