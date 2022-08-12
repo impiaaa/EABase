@@ -619,7 +619,6 @@
 	#define EA_PLATFORM_DESCRIPTION "Saturn on SH-2"
 	#define EA_PLATFORM_CONSOLE 1
 	#define EA_PLATFORM_SEGA 1
-	#define EA_PLATFORM_POSIX 1
 	#define EA_PROCESSOR_SUPERH 1
 	#define EA_COMPILER_NO_STRUCTURED_BINDING
 	#if defined(__GNUC__) || defined(__clang__)
@@ -631,8 +630,6 @@
 	#define EA_SYSTEM_LITTLE_ENDIAN 1
 	#define EA_PLATFORM_DESCRIPTION "PlayStation on MIPS"
 	#define EA_PLATFORM_CONSOLE 1
-	#define EA_PLATFORM_SONY 1
-	#define EA_PLATFORM_POSIX 1
 	#define EA_PROCESSOR_MIPS 1
 	#define EA_COMPILER_NO_STRUCTURED_BINDING
 	#if defined(__GNUC__) || defined(__clang__)
@@ -644,7 +641,6 @@
 	#define EA_PLATFORM_DESCRIPTION "N64 on MIPS"
 	#define EA_PLATFORM_CONSOLE 1
 	#define EA_PLATFORM_NINTENDO 1
-	#define EA_PLATFORM_POSIX 1
 	#define EA_PROCESSOR_MIPS 1
 	#define EA_COMPILER_NO_STRUCTURED_BINDING
 	#if defined(__GNUC__) || defined(__clang__)
@@ -667,7 +663,6 @@
 	#define EA_SYSTEM_LITTLE_ENDIAN 1
 	#define EA_PLATFORM_DESCRIPTION "PS2 on MIPS"
 	#define EA_PLATFORM_CONSOLE 1
-	#define EA_PLATFORM_SONY 1
 	#define EA_PLATFORM_POSIX 1
 	#define EA_PLATFORM_PLAYSTATION2 1
 	#define EA_PROCESSOR_MIPS 1
