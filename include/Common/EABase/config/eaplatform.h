@@ -620,7 +620,8 @@
 	#define EA_PLATFORM_CONSOLE 1
 	#define EA_PLATFORM_SEGA 1
 	#define EA_PROCESSOR_SUPERH 1
-	#define EA_COMPILER_NO_STRUCTURED_BINDING
+	#define EA_COMPILER_NO_STRUCTURED_BINDING 1
+	#define EA_NO_HAVE_time_IMPL 1
 	#if defined(__GNUC__) || defined(__clang__)
 		#define EA_ASM_STYLE_ATT 1
 	#endif
@@ -631,7 +632,8 @@
 	#define EA_PLATFORM_DESCRIPTION "PlayStation on MIPS"
 	#define EA_PLATFORM_CONSOLE 1
 	#define EA_PROCESSOR_MIPS 1
-	#define EA_COMPILER_NO_STRUCTURED_BINDING
+	#define EA_COMPILER_NO_STRUCTURED_BINDING 1
+	#define EA_NO_HAVE_time_IMPL 1
 	#if defined(__GNUC__) || defined(__clang__)
 		#define EA_ASM_STYLE_ATT 1
 	#endif
@@ -642,7 +644,8 @@
 	#define EA_PLATFORM_CONSOLE 1
 	#define EA_PLATFORM_NINTENDO 1
 	#define EA_PROCESSOR_MIPS 1
-	#define EA_COMPILER_NO_STRUCTURED_BINDING
+	#define EA_COMPILER_NO_STRUCTURED_BINDING 1
+	#define EA_NO_HAVE_time_IMPL 1
 	#if defined(__GNUC__) || defined(__clang__)
 		#define EA_ASM_STYLE_ATT 1
 	#endif
